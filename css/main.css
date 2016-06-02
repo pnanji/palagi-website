@@ -1,0 +1,170 @@
+/*Custom Fonts*/
+@font-face {
+    font-family: 'equity_text_aregular';
+    src: url('equity_text_a_regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'equity_text_abold';
+    src: url('equity_text_a_bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'equity_text_aitalic';
+    src: url('equity_text_a_italic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'equity_caps_aregular';
+    src: url('equity_caps_a_regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'concourse_t2regular';
+    src: url('concourse_t2_regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'concourse_c4regular';
+    src: url('concourse_c4_regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'concourse_t3regular';
+    src: url('concourse_t3_regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* Base Styles ---------------------- */
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	background-color: #fafaf5;
+	font-family: 'equity_text_aregular', Georgia, serif;
+	font-size: 1.25rem;
+	color: #333;
+}
+
+a {
+	text-decoration: none;
+	color: #333;
+}
+
+
+
+/*-----------------HEADER----------------*/
+
+header {
+	height: 80px;
+	width: 75%;
+	margin: auto;
+	border-bottom: 1px solid #D9D9D9;
+}
+nav {
+	display: inline-block;
+	float: right;
+	font-family: 'concourse_c4regular', Helvetica, Serif;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    padding: 4px 9px 6px 9px;
+    margin: 28px 28px 0px 28px;
+}
+
+#contactButton {
+	background-color: #333;
+	color: #fafaf2;
+	margin-right: 0px;
+}
+
+header img {
+	height: 56px;
+	width: 56px;
+	margin-top: 12px;
+}
+
