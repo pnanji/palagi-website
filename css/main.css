@@ -416,13 +416,13 @@ header img {
 	margin: auto;
 	padding-bottom: 112px;
 }
+
 #carousel ul {
 	list-style-type:none;
 	white-space: nowrap;
     overflow-x:auto;
 
 }
-
 
 #orange {
 	border: solid 17px #FBAD40;
